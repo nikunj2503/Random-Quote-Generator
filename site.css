@@ -1,0 +1,53 @@
+body {
+    
+    background-image: url('background.jpg');
+    /* background-color:chartreuse; */
+    color: blue;
+}
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left:0;
+    right:0;
+    margin:auto;
+    transform: translateY(-50%);
+    text-align:center;
+    width:80%;
+    height: auto;
+    background-color: white;
+}
+
+.newQuote {
+    width: 125px;
+    padding: 10px 30px;
+    height: 60px;
+    color:blue;
+    font-weight: 900;
+    cursor: pointer;
+    border-radius: 3%;
+    background-color:lightgray;
+}
+
+.tweetButton {
+    margin-bottom: 5%;
+}
+
+h1 {
+    font-family: 'Risque', cursive;
+    font-size: 3rem;
+}
+
+h2, a {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 2rem;
+}
+
+p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 2rem;
+}
+
+h3 {
+    font-family: 'Bungee', cursive;
+    font-size: 2rem;
+}
